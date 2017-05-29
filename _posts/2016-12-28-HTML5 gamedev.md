@@ -13,49 +13,29 @@ description: For all those gaming nerds out there, there isn’t a better way to
 ## HTML5 Game Development  
 For all those gaming nerds out there, there isn’t a better way to develop your gaming skills but to start from scratch of how a game works and to build your own one!
 HTML 5 provides rich environment to create your games using Javascript and the html5 canvas object.<br>
-<!--more-->
-<br>
 **PRE-REQUISITES** 
-<br>
 Well all you need is to know the basics of html and javascript. And of course a little bit of enthu in the pot is forever welcomed !  :) <br>
-
-
 **WHY NOT OTHER GAME-ENGINES ?** 
-<br>
 We have hundreds of cool game engines in the market, to name few unity ,unreal engine, cryengine, source 2 etc. But here we focus on learning things from the scratch, in engines like these things are more  drag and drop and the essence of how things work from the basic fails to deliver. In this article we discuss things from the very basic ! <br>
-
 **GAME CANVAS AND GAME COMPONENTS**
-<br>
 Without much ado, we talk about the canvas object in the html 5 that offers to us the work place for doing all our cool gaming stuffs. To note is that it is a container to hold the graphics content and nothing more. Everything that needs to be done must be defined beforehand unlike the game engines like unity which have predefined objects like planes, spheres etc. <br>
 **Game Components** 
-<br>
-We can draw rectangles, circles, lines using the 2D context of canvas object ( in layman's term - drawing in the canvas holder by using its 2 Dimensional object ).We can provide colors to fill , or use gradient colors , or even load images to make animations in the 2d context of canvas object.
-<br>
+We can draw rectangles, circles, lines using the 2D context of canvas object ( in layman's term - drawing in the canvas holder by using its 2 Dimensional object ).We can provide colors to fill , or use gradient colors , or even load images to make animations in the 2d context of canvas object.<br>
 _Reference Code in js-_ <br>
-{% highlight js %}
-var canvas=Document.createElement(“canvas”);  
+{% highlight javascript %}
+var canvas=Document.createElement("canvas");  
 document.appendChild(canvas);  
-var context=canvas.getContext(“2D”);  
-context.fillStyle=”red”;  
+var context=canvas.getContext("2D");  
+context.fillStyle="red";  
 context.fillRect(10,20,30,40);
 {% endhighlight %}
-
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
 
 This creates a color filled red rectangle in the canvas at (10,20) coordinates of 30px as width and 40px as height. <br>
 
 
 **GAME COMPONENTS AND THEIR MOVEMENT** 
-<br>
-The importance of these objects is that they can be moved inside the canvas by redrawing them to different positions , this being done per frame ! A separate function is created which helps in drawing the components taking the position as arguments that is called many times a second to update the position of the game components.The position can incremented each time adding a constant or a uniformly increasing function to make the component move uniformly or accelerate respectively. <br>
+The importance of these objects is that they can be moved inside the canvas by redrawing them to different positions , this being done per frame ! A separate function is created which helps in drawing the components taking the position as arguments that is called many times a second to update the position of the game components.The position can incremented each time adding a constant or a uniformly increasing function to make the component move uniformly or accelerate respectively.
 The movement is triggered also by adding event handlers through javascript, like “keydown” , “keyup” for keyboard keys, which then can be recognised using the keyCode attribute of the event argument of event -handler function call (see attached reference code) .
-<br>
 _Reference Code in js-_ <br>
 {% highlight javascript linenos %}
 window.addEventListener('keydown', function (e) {  
@@ -66,33 +46,17 @@ window.addEventListener('keydown', function (e) {
 //setInterval(callMe,50); 
 {% endhighlight %}
 Hence by knowing which key is pressed we can call the required functions for action to be taken. <br>
-
 **GAME OBSTACLES AND SCORE** 
-<br>
 Like other game components game obstacles are also game components but being generated at random coordinates of random shape, the code of which is much the same and i leave it to you :) .  
 The score in most of the cases is decided by certain collision events or by the current frame from the beginning of the game.
 Its very easy to ascertain the collision between objects exploiting the again the boundary coordinates, and the current frame can be known by ensuring a  counter that is incremented for the function that is called per frame.I leave the job for you to google out the way to write text in canvas element to display the score when needed. <br>
-
 **ALMOST THERE !**
-<br>
 We  have known  everything to create our first simple html5 game with our own game arena and game components, game obstacles and score to compete ! <br>
-
 **LONELY WITHOUT SOUNDS ?**
-<br>
 Well everyone loves the charm when there’s music in the air ! Luckily we can have it too in case of html5 “audio” object . Not going into much detail , we can add sound using the following sample code link, which i leave you to dissect. <br>
-
 **LINKS AND FURTHER READING**
-<br>
 * [adding sounds](http://home.iitk.ac.in/~akashdut/sounddev.txt)
-<br>
 * [udacity course on html5 game dev](https://www.udacity.com/course/html5-game-development--cs255)
-<br>
 * [udacity course on html5 canvas element](https://www.udacity.com/course/html5-canvas--ud292)
-<br>
-* [w3schools tutorial for html game](http://www.w3schools.com/games/default.asp)<br>
-
-
-
-
-
+* [w3schools tutorial for html game](https://www.w3schools.com/graphics/game_components.asp)<br>
 
