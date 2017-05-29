@@ -2,6 +2,7 @@
 layout: post
 title: HTML 5 Game Dev
 comments: true
+description: For all those gaming nerds out there, there isn’t a better way to develop your gaming skills but to start from scratch of how a game works and to build your own one!
 tag: 
   - gamedev
   - html5
@@ -21,10 +22,10 @@ Without much ado, we talk about the canvas object in the html 5 that offers to u
 We can draw rectangles, circles, lines using the 2D context of canvas object ( in layman's term - drawing in the canvas holder by using its 2 Dimensional object ).We can provide colors to fill , or use gradient colors , or even load images to make animations in the 2d context of canvas object.
 _Reference Code in js-_ <br>
 {% highlight js %}
-var canvas=Document.createElement(“canvas”);  
+var canvas=Document.createElement("canvas");  
 document.appendChild(canvas);  
-var context=canvas.getContext(“2D”);  
-context.fillStyle=”red”;  
+var context=canvas.getContext("2D");  
+context.fillStyle="red";  
 context.fillRect(10,20,30,40);
 {% endhighlight %}
 This creates a color filled red rectangle in the canvas at (10,20) coordinates of 30px as width and 40px as height. <br>
