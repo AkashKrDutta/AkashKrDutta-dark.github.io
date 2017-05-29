@@ -13,7 +13,7 @@ title: Contact Me
 
 <div class="form-style-2">
 <div class="form-style-2-heading">Provide your information</div>
-<form action="http://formspree.io/akdboltzmann@gmail.com" method="POST">
+<form action="https://formspree.io/akdboltzmann@gmail.com" method="POST">
 <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" required></label>
 <label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" required></label>
 <label for="field4"><span>Regarding</span><select name="field4" class="select-field">
