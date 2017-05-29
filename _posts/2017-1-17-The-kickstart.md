@@ -9,7 +9,7 @@ comments: true
 description: Confused over what and how to start from? Beginner? This is where you know what to do!
 ---
 
-Well I am a Student Guide and I got this question asked:
+Well I was a Student Guide and I got this question asked:
 Question: What is the first thing one should try if you want to succeed in THE coding world?<br>
 My "bachcha" asked me this question who is from the CSE Department. I knew that there is always a lot of discussion and debate but a lack of proper consultation about it in the freshman as to what to start from. How to build up your coding skills and compete among your batchmates?
 The starting moment makes a huge difference, believe me!
