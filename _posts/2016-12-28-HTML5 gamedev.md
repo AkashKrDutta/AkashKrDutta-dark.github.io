@@ -15,7 +15,7 @@ HTML 5 provides rich environment to create your games using Javascript and the h
 **PRE-REQUISITES** 
 Well all you need is to know the basics of html and javascript. And of course a little bit of enthu in the pot is forever welcomed !  :) <br>
 **WHY NOT OTHER GAME-ENGINES ?** 
-We have hundreds of cool game engines in the market, to name few unity ,unreal engine, cryengine, source 2 etc. But here we focus on learning things from the scratch, in engines like these things are more  drag and drop and the essence of how things work from the basic fails to deliver. In this article we discuss things from the very basic ! <br>
+We have hundreds of cool game engines in the market, to name few unity, unreal engine, cryengine, source 2 etc. But here we focus on learning things from the scratch, in engines like these things are more  drag and drop and the essence of how things work from the basic fails to deliver. In this article we discuss things from the very basic ! <br>
 **GAME CANVAS AND GAME COMPONENTS**
 Without much ado, we talk about the canvas object in the html 5 that offers to us the work place for doing all our cool gaming stuffs. To note is that it is a container to hold the graphics content and nothing more. Everything that needs to be done must be defined beforehand unlike the game engines like unity which have predefined objects like planes, spheres etc. <br>
 **Game Components** 
