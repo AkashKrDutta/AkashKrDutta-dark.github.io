@@ -51,6 +51,7 @@ We  have known  everything to create our first simple html5 game with our own ga
 **LONELY WITHOUT SOUNDS ?**
 Well everyone loves the charm when there’s music in the air! Luckily we can have it too in case of html5 “audio” object. Sounds can be added when collision occurs or when key is pressed by calling the function for sound whenever the event is caputered inside the functions that we have already seen. Not going into much detail, we can add sound using the following code link, which I leave you to dissect. <br>
 **LINKS AND FURTHER READING**
+
 * [adding sounds](http://home.iitk.ac.in/~akashdut/sounddev.txt)
 * [udacity course on html5 game dev](https://www.udacity.com/course/html5-game-development--cs255)
 * [udacity course on html5 canvas element](https://www.udacity.com/course/html5-canvas--ud292)
