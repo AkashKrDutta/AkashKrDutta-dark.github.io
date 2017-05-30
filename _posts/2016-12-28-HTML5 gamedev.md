@@ -19,8 +19,7 @@ We have hundreds of cool game engines in the market, to name few unity, unreal e
 **GAME CANVAS AND GAME COMPONENTS**
 Without much ado, we talk about the canvas object in the html 5 that offers to us the workplace for doing all our cool gaming stuff. To note is that it is a container to hold the graphics content and nothing more. Everything that needs to be done must be defined beforehand unlike the game engines like unity which have predefined objects like planes, spheres etc. <br>
 **Game Components** 
-We can draw rectangles, circles, lines using the 2D context of canvas object ( in layman's term - drawing in the canvas holder by using its 2 Dimensional object ).We can provide colors to fill, or use gradient colors, or even load images to make animations in the 2d context of canvas object.
-_Reference Code in js-_ <br>
+We can draw rectangles, circles, lines using the 2D context of canvas object ( in layman's term - drawing in the canvas holder by using its 2 Dimensional object ).We can provide colors to fill, or use gradient colors, or even load images to make animations in the 2d context of canvas object.<br>
 {% highlight js %}
 var canvas=Document.createElement("canvas");  
 document.appendChild(canvas);  
@@ -31,8 +30,7 @@ context.fillRect(10,20,30,40);
 This creates a color filled red rectangle in the canvas at (10,20) coordinates of 30px as width and 40px as height. <br>
 **GAME COMPONENTS AND THEIR MOVEMENT** 
 The importance of these objects is that they can be moved inside the canvas by redrawing them to different positions, this being done every fixed time interval (frame rate). The <code>addEventListener</code> captures the input and calls a function (callMe as in the code shown) at fixed intervals to make the game component move. The function callMe then calls another function that takes the current position as arguments and redraws it according to the key pressed, this being done at fixed interval of time, creating an effect of movement. The position can be incremented each time adding a constant or a uniformly increasing mathematical function to make the component move uniformly or accelerate respectively.
-The movement is triggered by adding event handlers through javascript, like “keydown” , “keyup” for keyboard keys, which can be recognized using the keyCode attribute of the event argument of event -handler function call.
-_Reference Code in js-_ <br>
+The movement is triggered by adding event handlers through javascript, like “keydown” , “keyup” for keyboard keys, which can be recognized using the keyCode attribute of the event argument of event -handler function call.<br>
 {% highlight javascript %}
 window.addEventListener('keydown', function (e) {  
   myGameArea.key = e.keyCode;
