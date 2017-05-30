@@ -8,7 +8,7 @@ title: Contact Me
   <div class="contactContent">
     <p class="intro">You can contact me via <a href="https://facebook.com/akash.boltzmann" target="_blank" style="text-decoration:none">facebook</a> or <a href="https://in.linkedin.com/in/akash-kumar-dutta" target="_blank" style="text-decoration:none">linkedin</a></p>
     <!--<p class="intro">If you have questions about the blogs feel free to <a href="mailto:akdboltzmann@gmail.com" style="text-decoration:none">email me</a>. Enjoy!</p>-->
-    <p> You can message me as well! </p>
+    <p> You can message me as well: </p>
   </div>
 
 <div class="form-style-2">
