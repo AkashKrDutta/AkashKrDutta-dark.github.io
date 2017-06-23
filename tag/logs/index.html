@@ -9,7 +9,7 @@ tagcompare: logs
 	{% for tag in post.tags %}
 	{% if tag == page.tagcompare %}
           <li class="archive_list">
-            <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}"/'>{{ post.title }}</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ post.date }}
+            <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}"/'>{{ post.title }}</a>
             <p>{{ post.description }}</p>
           </li>
 	{% endif %}
