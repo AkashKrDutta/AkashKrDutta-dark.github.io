@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kubernetes deployment of Graylog: Structure and Key Concepts
+title: Kubernetes deployment of Graylog - Structure and Key Concepts
 description: A follow up post, this will let you know Graylog essential details required to run in Kubernetes. Lets Start !
 date: 2017-8-05
 tag:
@@ -27,6 +27,6 @@ Graylog requires mongo db replica set in action. But what did I create ? It was 
 
 The next important thing is scaling and resource management. One must take care of the percent of resources that are being used in the nodes and restrict them accordingly to avoid node failures. 
 
-The graylog service wont work if you dont allow firewall rules (in GCE) to let access the service from your ip address. This is something of a basic info, but a important one. 
+The graylog service wont work if you dont allow firewall rules (in GCE) to let access the service from your ip address. This is something of a basic info, but an important one. 
 
 
