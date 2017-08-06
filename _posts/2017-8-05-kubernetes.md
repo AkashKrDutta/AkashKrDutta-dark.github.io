@@ -21,7 +21,7 @@ For setting up the Graylog service, one needs to deploy ElasticSearch, Mongo DB,
 
 ## <span style="color:#0CE3AC">KEY CONCEPTS USED</span>
 
-* Connecting the rest apis and managing the workign of pods was difficult. One must know that they should use stateful sets and derefernce pods based on their IPs that they are assigned, as they are  stateful. This IP points to the pod and is used in the enviroment variables.
+* Connecting the rest apis and managing the working of pods was difficult. One must know that they should use stateful sets and derefernce pods based on their IPs that they are assigned, as they are  stateful. This IP points to the pod and is used in the enviroment variables.
 
 * Graylog requires mongo db replica set in action. But what did I create ? It was a stateful set! Then ? We must provide proper commnands in the mongo db, so that the stateful set is identified and implemented as a replica set. This can be found on googling.
 
