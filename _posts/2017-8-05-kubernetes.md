@@ -19,7 +19,7 @@ I am not going to discuss in this post the vary details of the configuration fil
 
 For setting up the Graylog service, one needs to deploy ElasticSearch, Mongo DB, and Graylog. I created 3 services, so that they can be scaled independently. The services composed of stateful sets that used Persistent disks in their pods. Each of the services were connected using the enviromental variables that one need to declare and assign in the configuration. This sounds simple, but something like Graylog which doesnt have a proper documentation in Kubernetes, takes a lot of struggle for API Connections.
 
-## <span style="color:#151515">KEY CONCEPTS USED</span>
+## <span style="color:#5E5E5E">KEY CONCEPTS USED</span>
 
 * Connecting the rest apis and managing the workign of pods was difficult. One must know that they should use stateful sets and derefernce pods based on their IPs that they are assigned, as they are  stateful. This IP points to the pod and is used in the enviroment variables.
 
